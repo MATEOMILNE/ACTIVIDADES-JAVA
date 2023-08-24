@@ -4,18 +4,18 @@ public class ACT9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese una cadena de caracteres: ");
+        System.out.print("Ingrese un mensaje: ");
         String cadena = scanner.nextLine();
 
-        System.out.print("Ingrese el car·cter a reemplazar: ");
+        System.out.print("Ingrese el car√°cter a reemplazar: ");
         char caracterOriginal = scanner.nextLine().charAt(0);
 
-        System.out.print("Ingrese el nuevo car·cter: ");
+        System.out.print("Ingrese el nuevo car√°cter: ");
         char nuevoCaracter = scanner.nextLine().charAt(0);
 
         String cadenaReemplazada = reemplazarCaracter(cadena, caracterOriginal, nuevoCaracter);
 
-        System.out.println("Cadena despuÈs de reemplazar: " + cadenaReemplazada);
+        System.out.println("mensaje despu√©s de reemplazar: " + cadenaReemplazada);
 
         scanner.close();
     }
