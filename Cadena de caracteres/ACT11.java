@@ -17,7 +17,7 @@ public class ACT11{
             }
         }
 
-        System.out.println("La cadena m·s larga es: " + cadenaMasLarga);
+        System.out.println("La palabra m√°s larga es: " + cadenaMasLarga);
 
         scanner.close();
     }
