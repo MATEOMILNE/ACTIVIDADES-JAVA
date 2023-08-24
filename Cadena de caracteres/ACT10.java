@@ -5,16 +5,16 @@ public class ACT10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese la primera cadena: ");
+        System.out.print("Ingrese la primera palabra: ");
         String cadena1 = scanner.nextLine();
 
-        System.out.print("Ingrese la segunda cadena: ");
+        System.out.print("Ingrese la segunda palabra: ");
         String cadena2 = scanner.nextLine();
 
         if (sonAnagramas(cadena1, cadena2)) {
-            System.out.println("Las cadenas son anagramas.");
+            System.out.println("Las palabras son anagramas.");
         } else {
-            System.out.println("Las cadenas no son anagramas.");
+            System.out.println("Las palabras no son anagramas.");
         }
 
         scanner.close();
